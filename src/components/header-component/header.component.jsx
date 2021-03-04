@@ -5,6 +5,8 @@ import { ReactComponent as Logo } from '../../assests/crown.svg'
 import { auth } from '../../firebase/firebase'
 
 const Header = ({ currentUser }) => {
+    // console.log("gibrish")
+    // console.log(currentUser)
     return (
         <div className="header">
             <Link to='/' className='logo-container'>
