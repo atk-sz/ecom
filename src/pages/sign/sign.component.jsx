@@ -1,6 +1,6 @@
 import React from 'react';
 import './sign.style.scss'
-import SignIn from '../../sign-in/sign-in.component';
+import SignIn from '../../components/sign-in/sign-in.component';
 
 
 const Sign = ()=>{
