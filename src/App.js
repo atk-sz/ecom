@@ -44,7 +44,6 @@ class App extends React.Component {
           <Route exact path='/shop' component={ShopPage} />
           <Route exact path='/sign' render={
             ()=>{
-              console.log(this.props.currentUser)
               return this.props.currentUser?(<Redirect to='/' />):(<Sign/>)
             }
           } />
